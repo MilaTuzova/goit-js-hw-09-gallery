@@ -1,0 +1,24 @@
+{
+    "name": "goit-js-hw-09-gallery",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"hi, i am redy\"",
+        "start": "node index.js",
+        "app": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MilaTuzova/goit-js-hw-09-gallery.git"
+    },
+    "author": "Mila <tuzovals@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MilaTuzova/goit-js-hw-09-gallery/issues"
+    },
+    "homepage": "https://github.com/MilaTuzova/goit-js-hw-09-gallery#readme",
+    "dependencies": {
+        "shortid": "^2.2.16"
+    }
+}
