@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"hi, i am redy\"",
+        "test": "echo \"hi, i am ready\"",
         "start": "node index.js",
         "app": "node app.js"
     },
