@@ -1,34 +1,34 @@
 {
-  "name": "goit-js-hw-09-gallery",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /goit-js-hw-09-gallery/",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MilaTuzova/goit-js-hw-09-gallery.git"
-  },
-  "author": "Mila <tuzovals@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MilaTuzova/goit-js-hw-09-gallery/issues"
-  },
-  "homepage": "https://MilaTuzova.github.io/goit-js-hw-09-gallery",
-  "dependencies": {
-    "gh-pages": "^3.2.2",
-    "joi": "^17.4.0",
-    "parcel-plugin-handlebars-precompile": "^1.0.2",
-    "shortid": "^2.2.16"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5",
-    "parcel-plugin-nuke-dist": "^1.0.1",
-    "posthtml-include": "^1.7.1",
-    "sass": "^1.35.1"
-  }
+    "name": "goit-js-hw-09-gallery",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "parcel src/*.html",
+        "build": "parcel build src/*.html --public-url /goit-js-hw-09-gallery/",
+        "deploy": "gh-pages -d dist",
+        "predeploy": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MilaTuzova/goit-js-hw-09-gallery.git"
+    },
+    "author": "Mila <tuzovals@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MilaTuzova/goit-js-hw-09-gallery/issues"
+    },
+    "homepage": "https://MilaTuzova.github.io/goit-js-hw-09-gallery",
+    "dependencies": {
+        "gh-pages": "^3.2.2",
+        "joi": "^17.4.0",
+        "shortid": "^2.2.16"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.12.5",
+        "parcel-plugin-handlebars-precompile": "^1.0.2",
+        "parcel-plugin-nuke-dist": "^1.0.1",
+        "posthtml-include": "^1.7.1",
+        "sass": "^1.35.1"
+    }
 }
