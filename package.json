@@ -11,20 +11,21 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MilaTuzova/goit-js-hw-09-gallery.git"
+        "url": "git+https://github.com/milatuzova/goit-js-hw-09-gallery.git"
     },
     "author": "Mila <tuzovals@gmail.com>",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/MilaTuzova/goit-js-hw-09-gallery/issues"
+        "url": "https://github.com/milatuzova/goit-js-hw-09-gallery/issues"
     },
-    "homepage": "https://MilaTuzova.github.io/goit-js-hw-09-gallery",
+    "homepage": "https://milatuzova.github.io/goit-js-hw-09-gallery",
     "dependencies": {
-        "gh-pages": "^3.2.2",
+        "browserslistrc": "^1.0.0",
         "joi": "^17.4.0",
         "shortid": "^2.2.16"
     },
     "devDependencies": {
+        "gh-pages": "^3.2.2",
         "parcel-bundler": "^1.12.5",
         "parcel-plugin-handlebars-precompile": "^1.0.2",
         "parcel-plugin-nuke-dist": "^1.0.1",
