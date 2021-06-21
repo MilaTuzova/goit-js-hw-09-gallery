@@ -6,9 +6,7 @@
     "homepage": "https://milatuzova.github.io/goit-js-hw-09-gallery",
     "scripts": {
         "dev": "parcel src/*.html",
-        "build": "parcel build src/*.html --public-url /goit-js-hw-09-gallery/",
-        "deploy": "gp-pages -d dist",
-        "predeploy": "npm run build"
+        "build": "parcel build src/*.html --public-url /goit-js-hw-09-gallery/"
     },
     "repository": {
         "type": "git",
